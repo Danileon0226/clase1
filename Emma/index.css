@@ -3,21 +3,44 @@ body {
   color: black;
 }
 h1 {
-  background-color: aqua;
+  background-color: rgb(202, 224, 224);
 }
 .titulo {
-  background-color: cadetblue;
+  background-color: rgb(202, 224, 224);
 }
 h2 {
   background-color: aquamarin;
-  color: #abb2b9;
+  color: #000000;
 }
 .conten {
-  background-color: aliceblue;
+  border: 10px;
+  text-align: center;
 }
-.banner-imagen {
-  width: 50%;
-  height: 50%;
+div {
+  display: grid;
+  min-height: 50dvh;
+  grid-template-rows: auto 1fr auto;
+}
+footer {
+  background-color: #abb2b9;
+  text-align: center;
+}
+header {
+  text-align: center;
+  background-color: #abb2b9;
+}
+.log {
+  width: 75px;
+  height: auto;
+}
+.imagen {
+  border-radius: 50px;
+  width: 75%;
+  height: 75%;
   object-fit: cover;
-  filter: brightness(50%) !important;
+  filter: brightness(75%) !important;
+  margin: auto;
+}
+main {
+  text-align: center;
 }
